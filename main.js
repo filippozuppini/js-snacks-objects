@@ -28,4 +28,18 @@ const biciclette = [
 
 ]
 
+// console.log(biciclette);
 
+let mostLightBicycle = biciclette[0];
+
+
+for (let i = 0; i < biciclette.length; i++) {
+    
+    // console.log(biciclette[i].peso);
+
+    if (biciclette[i].peso < mostLightBicycle.peso) {
+        mostLightBicycle = biciclette[i];
+    } 
+}
+
+console.log(mostLightBicycle);
