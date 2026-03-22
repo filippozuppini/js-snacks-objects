@@ -42,4 +42,4 @@ for (let i = 0; i < biciclette.length; i++) {
     } 
 }
 
-console.log(mostLightBicycle);
+console.log(mostLightBicycle.nome);
